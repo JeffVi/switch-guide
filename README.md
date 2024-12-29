@@ -1,5 +1,5 @@
 # Switch Guide
-
+test
 [The guide can be found here!](https://switch.hacks.guide)
 
 Nintendo Switch homebrew guide written by staff members of the Nintendo Homebrew Discord server.
