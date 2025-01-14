@@ -14,7 +14,7 @@ export default defineConfig({
   title: "NH Switch Guide",
   description: "Switch CFW Guide.",
   sitemap: {
-    hostname: 'https://switch.hacks.guide'
+    hostname: 'https://jeffvi.github.io/switch-guide/'
   },
   head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   themeConfig: {
