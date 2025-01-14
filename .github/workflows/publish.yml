@@ -2,7 +2,7 @@ name: Deploy site
 
 on:
   push:
-    branches: [ master ]
+    branches: [ preview ]
   workflow_dispatch:
 
 jobs:
@@ -36,9 +36,9 @@ jobs:
           touch docs/.vitepress/dist/.nojekyll
           cp CNAME docs/.vitepress/dist/CNAME
 
-      - name: Deploy 🚀
+      - name: Deploy to preview 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          branch: gh-pages # The branch the action should deploy to.
+          branch: preview-pages # The branch the action should deploy to.
           folder: docs/.vitepress/dist # The folder the action should deploy.
           clean: true # Automatically remove deleted files from the deploy branch
