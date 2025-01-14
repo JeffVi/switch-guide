@@ -11,6 +11,7 @@ import container from 'markdown-it-container'
 import * as i18n from './i18n'
 
 export default defineConfig({
+  base: "/switch-guide/",
   title: "NH Switch Guide",
   description: "Switch CFW Guide.",
   sitemap: {
